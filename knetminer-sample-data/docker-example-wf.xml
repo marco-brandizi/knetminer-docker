@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  This was used with Ondex Mini to generate the RDF version of docker-example.oxl
+-->
+<Ondex version="3.0">
+  <Workflow>
+    <Graph name="memorygraph">
+      <Arg name="GraphName">default</Arg>
+      <Arg name="graphId">default</Arg>
+    </Graph>
+    <Parser name="oxl">
+      <Arg name="InputFile">/Users/brandizi/Documents/Work/RRes/knetminer-docker/knetminer-sample-data/docker-example.oxl</Arg>
+      <Arg name="graphId">default</Arg>
+    </Parser>
+    <Export name="RDF-Exporter-2">
+      <Arg name="ExportFile">/Users/brandizi/Documents/Work/RRes/knetminer-docker/knetminer-sample-data/rdf/docker-example.ttl</Arg>
+      <Arg name="rdfLang">TURTLE_BLOCKS</Arg>
+      <Arg name="graphId">default</Arg>
+    </Export>
+  </Workflow>
+</Ondex>
+
