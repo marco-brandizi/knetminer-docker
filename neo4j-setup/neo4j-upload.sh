@@ -3,8 +3,10 @@
 #
 
 # We need the rdf2neo converter (https://github.com/Rothamsted/rdf2neo) to populate Neo4j from knetminer
+#
+# We use an Ondex extension of this tool that is embedded into Ondex.
+# A stand-alone version can be downloaded from our Maven repository:
 # 
-# If you're not using it as part of Ondex, cownload the converter from our Maven repository:
 # http://ondex.rothamsted.ac.uk/nexus/content/groups/public-snapshots/net/sourceforge/ondex/modules/neo4j-export/
 # (choose the last version and the *-bundle.zip file)
 #
